@@ -1,0 +1,109 @@
+{
+  "gold_version": "v1",
+  "embedder": "hashing-512",
+  "run_at": "2026-11-21T06:32:18+00:00",
+  "queries": 88,
+  "retrieval": [
+    {
+      "chunking": "heading-aware (180)",
+      "mode": "dense",
+      "chunks": 144,
+      "doc@1": 0.966,
+      "sec@1": 0.466,
+      "sec@5": 0.886,
+      "mrr@10": 0.615,
+      "tokens@1": 25.4
+    },
+    {
+      "chunking": "heading-aware (180)",
+      "mode": "sparse",
+      "chunks": 144,
+      "doc@1": 0.955,
+      "sec@1": 0.432,
+      "sec@5": 0.898,
+      "mrr@10": 0.604,
+      "tokens@1": 25.4
+    },
+    {
+      "chunking": "heading-aware (180)",
+      "mode": "hybrid",
+      "chunks": 144,
+      "doc@1": 0.955,
+      "sec@1": 0.466,
+      "sec@5": 0.92,
+      "mrr@10": 0.622,
+      "tokens@1": 25.1
+    },
+    {
+      "chunking": "fixed window (60)",
+      "mode": "dense",
+      "chunks": 112,
+      "doc@1": 0.841,
+      "sec@1": 0.545,
+      "sec@5": 0.727,
+      "mrr@10": 0.632,
+      "tokens@1": 57.5
+    },
+    {
+      "chunking": "fixed window (60)",
+      "mode": "sparse",
+      "chunks": 112,
+      "doc@1": 0.875,
+      "sec@1": 0.534,
+      "sec@5": 0.864,
+      "mrr@10": 0.659,
+      "tokens@1": 57.6
+    },
+    {
+      "chunking": "fixed window (60)",
+      "mode": "hybrid",
+      "chunks": 112,
+      "doc@1": 0.886,
+      "sec@1": 0.568,
+      "sec@5": 0.864,
+      "mrr@10": 0.681,
+      "tokens@1": 57.1
+    },
+    {
+      "chunking": "fixed window (180)",
+      "mode": "dense",
+      "chunks": 39,
+      "doc@1": 0.92,
+      "sec@1": 0.92,
+      "sec@5": 0.977,
+      "mrr@10": 0.939,
+      "tokens@1": 162.8
+    },
+    {
+      "chunking": "fixed window (180)",
+      "mode": "sparse",
+      "chunks": 39,
+      "doc@1": 0.955,
+      "sec@1": 0.955,
+      "sec@5": 0.966,
+      "mrr@10": 0.958,
+      "tokens@1": 158.9
+    },
+    {
+      "chunking": "fixed window (180)",
+      "mode": "hybrid",
+      "chunks": 39,
+      "doc@1": 0.943,
+      "sec@1": 0.943,
+      "sec@5": 0.977,
+      "mrr@10": 0.96,
+      "tokens@1": 159.0
+    }
+  ],
+  "incremental": {
+    "first_run_embeddings": 144,
+    "repeat_run_embeddings": 0,
+    "docs_edited": 4,
+    "docs_deleted": 2,
+    "docs_added": 2,
+    "incremental_embeddings": 14,
+    "full_reindex_embeddings": 144,
+    "embedding_work_saved": 0.903,
+    "chunks_removed": 14
+  }
+}

@@ -1,0 +1,88 @@
+{"query": "Who is responsible for orders-cdc and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/orders-cdc.md", "id": "q000"}
+{"query": "What should I do when orders-cdc breaks because the checkpoint store fills up?", "heading": "Failure modes", "doc_id": "runbooks/orders-cdc.md", "id": "q001"}
+{"query": "What is the delivery deadline for orders-cdc and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/orders-cdc.md", "id": "q002"}
+{"query": "Who is responsible for billing-export and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/billing-export.md", "id": "q003"}
+{"query": "What is the delivery deadline for billing-export and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/billing-export.md", "id": "q004"}
+{"query": "Which technology runs billing-export and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/billing-export.md", "id": "q005"}
+{"query": "How do I safely bring clickstream-sessionizer back up after stopping it?", "heading": "Restart procedure", "doc_id": "runbooks/clickstream-sessionizer.md", "id": "q006"}
+{"query": "Who is responsible for clickstream-sessionizer and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/clickstream-sessionizer.md", "id": "q007"}
+{"query": "Which technology runs clickstream-sessionizer and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/clickstream-sessionizer.md", "id": "q008"}
+{"query": "How do I safely bring inventory-snapshot back up after stopping it?", "heading": "Restart procedure", "doc_id": "runbooks/inventory-snapshot.md", "id": "q009"}
+{"query": "What is the delivery deadline for inventory-snapshot and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/inventory-snapshot.md", "id": "q010"}
+{"query": "Who is responsible for inventory-snapshot and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/inventory-snapshot.md", "id": "q011"}
+{"query": "Which technology runs fraud-features and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/fraud-features.md", "id": "q012"}
+{"query": "What should I do when fraud-features breaks because late-arriving events miss the window?", "heading": "Failure modes", "doc_id": "runbooks/fraud-features.md", "id": "q013"}
+{"query": "Who is responsible for fraud-features and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/fraud-features.md", "id": "q014"}
+{"query": "Which technology runs customer-360 and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/customer-360.md", "id": "q015"}
+{"query": "What should I do when customer-360 breaks because the checkpoint store fills up?", "heading": "Failure modes", "doc_id": "runbooks/customer-360.md", "id": "q016"}
+{"query": "Who is responsible for customer-360 and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/customer-360.md", "id": "q017"}
+{"query": "How do I safely bring pricing-sync back up after stopping it?", "heading": "Restart procedure", "doc_id": "runbooks/pricing-sync.md", "id": "q018"}
+{"query": "What should I do when pricing-sync breaks because the upstream schema changes without notice?", "heading": "Failure modes", "doc_id": "runbooks/pricing-sync.md", "id": "q019"}
+{"query": "Which technology runs pricing-sync and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/pricing-sync.md", "id": "q020"}
+{"query": "What should I do when shipment-tracker breaks because the checkpoint store fills up?", "heading": "Failure modes", "doc_id": "runbooks/shipment-tracker.md", "id": "q021"}
+{"query": "Which technology runs shipment-tracker and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/shipment-tracker.md", "id": "q022"}
+{"query": "What is the delivery deadline for shipment-tracker and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/shipment-tracker.md", "id": "q023"}
+{"query": "What is the delivery deadline for returns-ledger and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/returns-ledger.md", "id": "q024"}
+{"query": "Which technology runs returns-ledger and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/returns-ledger.md", "id": "q025"}
+{"query": "Who is responsible for returns-ledger and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/returns-ledger.md", "id": "q026"}
+{"query": "Which technology runs search-indexer and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/search-indexer.md", "id": "q027"}
+{"query": "How do I safely bring search-indexer back up after stopping it?", "heading": "Restart procedure", "doc_id": "runbooks/search-indexer.md", "id": "q028"}
+{"query": "What should I do when search-indexer breaks because the source API starts rate limiting?", "heading": "Failure modes", "doc_id": "runbooks/search-indexer.md", "id": "q029"}
+{"query": "What should I do when email-events breaks because the warehouse credentials rotate?", "heading": "Failure modes", "doc_id": "runbooks/email-events.md", "id": "q030"}
+{"query": "Which technology runs email-events and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/email-events.md", "id": "q031"}
+{"query": "What is the delivery deadline for email-events and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/email-events.md", "id": "q032"}
+{"query": "Who is responsible for loyalty-points and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/loyalty-points.md", "id": "q033"}
+{"query": "What is the delivery deadline for loyalty-points and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/loyalty-points.md", "id": "q034"}
+{"query": "How do I safely bring loyalty-points back up after stopping it?", "heading": "Restart procedure", "doc_id": "runbooks/loyalty-points.md", "id": "q035"}
+{"query": "Who is responsible for tax-calculator and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/tax-calculator.md", "id": "q036"}
+{"query": "Which technology runs tax-calculator and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/tax-calculator.md", "id": "q037"}
+{"query": "What is the delivery deadline for tax-calculator and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/tax-calculator.md", "id": "q038"}
+{"query": "Which technology runs catalog-enrichment and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/catalog-enrichment.md", "id": "q039"}
+{"query": "Who is responsible for catalog-enrichment and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/catalog-enrichment.md", "id": "q040"}
+{"query": "What should I do when catalog-enrichment breaks because duplicate records appear after a retry?", "heading": "Failure modes", "doc_id": "runbooks/catalog-enrichment.md", "id": "q041"}
+{"query": "How do I safely bring payments-reconciler back up after stopping it?", "heading": "Restart procedure", "doc_id": "runbooks/payments-reconciler.md", "id": "q042"}
+{"query": "What is the delivery deadline for payments-reconciler and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/payments-reconciler.md", "id": "q043"}
+{"query": "Which technology runs payments-reconciler and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/payments-reconciler.md", "id": "q044"}
+{"query": "How do I safely bring ad-attribution back up after stopping it?", "heading": "Restart procedure", "doc_id": "runbooks/ad-attribution.md", "id": "q045"}
+{"query": "Who is responsible for ad-attribution and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/ad-attribution.md", "id": "q046"}
+{"query": "What should I do when ad-attribution breaks because the warehouse credentials rotate?", "heading": "Failure modes", "doc_id": "runbooks/ad-attribution.md", "id": "q047"}
+{"query": "What is the delivery deadline for churn-scores and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/churn-scores.md", "id": "q048"}
+{"query": "What should I do when churn-scores breaks because the checkpoint store fills up?", "heading": "Failure modes", "doc_id": "runbooks/churn-scores.md", "id": "q049"}
+{"query": "Who is responsible for churn-scores and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/churn-scores.md", "id": "q050"}
+{"query": "What is the delivery deadline for warehouse-loader and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/warehouse-loader.md", "id": "q051"}
+{"query": "What should I do when warehouse-loader breaks because the checkpoint store fills up?", "heading": "Failure modes", "doc_id": "runbooks/warehouse-loader.md", "id": "q052"}
+{"query": "Who is responsible for warehouse-loader and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/warehouse-loader.md", "id": "q053"}
+{"query": "What is the delivery deadline for support-tickets-etl and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/support-tickets-etl.md", "id": "q054"}
+{"query": "What should I do when support-tickets-etl breaks because duplicate records appear after a retry?", "heading": "Failure modes", "doc_id": "runbooks/support-tickets-etl.md", "id": "q055"}
+{"query": "How do I safely bring support-tickets-etl back up after stopping it?", "heading": "Restart procedure", "doc_id": "runbooks/support-tickets-etl.md", "id": "q056"}
+{"query": "What is the delivery deadline for geo-lookup and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/geo-lookup.md", "id": "q057"}
+{"query": "What should I do when geo-lookup breaks because the source API starts rate limiting?", "heading": "Failure modes", "doc_id": "runbooks/geo-lookup.md", "id": "q058"}
+{"query": "Who is responsible for geo-lookup and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/geo-lookup.md", "id": "q059"}
+{"query": "Who is responsible for currency-rates and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/currency-rates.md", "id": "q060"}
+{"query": "How do I safely bring currency-rates back up after stopping it?", "heading": "Restart procedure", "doc_id": "runbooks/currency-rates.md", "id": "q061"}
+{"query": "What is the delivery deadline for currency-rates and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/currency-rates.md", "id": "q062"}
+{"query": "What is the delivery deadline for consent-registry and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/consent-registry.md", "id": "q063"}
+{"query": "Which technology runs consent-registry and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/consent-registry.md", "id": "q064"}
+{"query": "Who is responsible for consent-registry and where do its alarms get posted?", "heading": "Contacts", "doc_id": "runbooks/consent-registry.md", "id": "q065"}
+{"query": "What is the delivery deadline for recommendation-batch and how frequently does it execute?", "heading": "Schedule and SLA", "doc_id": "runbooks/recommendation-batch.md", "id": "q066"}
+{"query": "Which technology runs recommendation-batch and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/recommendation-batch.md", "id": "q067"}
+{"query": "What should I do when recommendation-batch breaks because duplicate records appear after a retry?", "heading": "Failure modes", "doc_id": "runbooks/recommendation-batch.md", "id": "q068"}
+{"query": "What should I do when audit-archiver breaks because the upstream schema changes without notice?", "heading": "Failure modes", "doc_id": "runbooks/audit-archiver.md", "id": "q069"}
+{"query": "Which technology runs audit-archiver and what does it depend on?", "heading": "Overview", "doc_id": "runbooks/audit-archiver.md", "id": "q070"}
+{"query": "How do I safely bring audit-archiver back up after stopping it?", "heading": "Restart procedure", "doc_id": "runbooks/audit-archiver.md", "id": "q071"}
+{"query": "How long do we keep landing data before it goes to cold storage?", "doc_id": "policies/data-retention-policy.md", "heading": "Raw zone", "id": "q072"}
+{"query": "What happens to deletion jobs when compliance freezes a dataset?", "doc_id": "policies/data-retention-policy.md", "heading": "Legal holds", "id": "q073"}
+{"query": "Who has to sign off before someone can read restricted data?", "doc_id": "policies/access-request-policy.md", "heading": "Approval", "id": "q074"}
+{"query": "When are unused dataset permissions taken away?", "doc_id": "policies/access-request-policy.md", "heading": "Reviews", "id": "q075"}
+{"query": "How often are updates sent when customers see wrong data?", "doc_id": "policies/incident-severity-guide.md", "heading": "Severity one", "id": "q076"}
+{"query": "What is the deadline for writing up an outage review?", "doc_id": "policies/incident-severity-guide.md", "heading": "Postmortems", "id": "q077"}
+{"query": "How are confidential fields protected in test environments?", "doc_id": "policies/pii-handling-standard.md", "heading": "Masking", "id": "q078"}
+{"query": "How quickly must an erasure request be finished?", "doc_id": "policies/pii-handling-standard.md", "heading": "Deletion requests", "id": "q079"}
+{"query": "When does reprocessing history need cost approval?", "doc_id": "policies/backfill-playbook.md", "heading": "Before you start", "id": "q080"}
+{"query": "In what order should partitions be reprocessed?", "doc_id": "policies/backfill-playbook.md", "heading": "Running it", "id": "q081"}
+{"query": "How should boolean and timestamp fields be named?", "doc_id": "policies/naming-conventions.md", "heading": "Columns", "id": "q082"}
+{"query": "What prefix do fact and dimension tables use?", "doc_id": "policies/naming-conventions.md", "heading": "Tables", "id": "q083"}
+{"query": "What happens to compute that has no team label?", "doc_id": "policies/cost-tagging-rules.md", "heading": "Required tags", "id": "q084"}
+{"query": "How is the bill for common platform services divided?", "doc_id": "policies/cost-tagging-rules.md", "heading": "Shared services", "id": "q085"}
+{"query": "How fast does an alert need to be acknowledged?", "doc_id": "policies/oncall-handbook.md", "heading": "Paging", "id": "q086"}
+{"query": "What should the engineer going off shift write down?", "doc_id": "policies/oncall-handbook.md", "heading": "Handover", "id": "q087"}

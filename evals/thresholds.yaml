@@ -1,0 +1,14 @@
+# Regression gate for the offline hashing embedder on gold v1. Values sit just under the
+# measured numbers in evals/results/hashing-512.md.
+retrieval_minimums:
+  - chunking: "heading-aware (180)"
+    mode: hybrid
+    metrics: {"doc@1": 0.93, "sec@5": 0.88, "mrr@10": 0.58}
+  - chunking: "heading-aware (180)"
+    mode: sparse
+    metrics: {"doc@1": 0.93, "sec@5": 0.86}
+  - chunking: "heading-aware (180)"
+    mode: dense
+    metrics: {"doc@1": 0.93, "sec@5": 0.85}
+incremental:
+  min_embedding_work_saved: 0.85
